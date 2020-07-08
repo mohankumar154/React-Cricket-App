@@ -13,7 +13,7 @@ class Schedule extends Component {
   }
 
   getNewslistData() {
-    axios.get("%PUBLIC_URL%/matchlist.json").then(response => {
+    axios.get(`${process.env.PUBLIC_URL}/assets/samplejson/matchlist.json`).then(response => {
       this.setState({customerList: response})
     })
   };
