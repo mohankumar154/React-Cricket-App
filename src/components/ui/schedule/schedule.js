@@ -13,7 +13,7 @@ class Schedule extends Component {
   }
 
   getNewslistData() {
-    fetch("https://json.extendsclass.com/bin/3ef3f7448844").then(response => {
+    axios.get("https://json.extendsclass.com/bin/3ef3f7448844").then(response => {
       this.setState({customerList: response})
     })
   };
