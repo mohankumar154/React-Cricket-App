@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import NewsDetails from './NewsDetails'
-import axios from 'axios'
+import NewsDetails from './NewsDetails';
+import axios from 'axios';
+
+
 
 class Home extends Component {
   constructor(props) {
@@ -15,7 +17,7 @@ class Home extends Component {
   }
 
   getNewsData() {
-    axios.get("assets/samplejson/newslist.json").then(response => {
+    axios.get("https://json.extendsclass.com/bin/44d112c8d039").then(response => {
       this.setState({newsList: response})
     })
   };
