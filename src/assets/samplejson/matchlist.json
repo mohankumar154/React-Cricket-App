@@ -1,0 +1,36 @@
+[{
+	"id": 1,
+	"date": "WED, JUL 08 2020",
+	"league":"Cricket World Cup",
+	"match":"IND vs PAK",
+	"time":"3:30 PM/ 10:00 AM GMT / 11:00 AM LOCAL"
+	
+}, {
+	"id": 2,
+	"date": "THU, JUL 09 2020",
+	"league":"Cricket World Cup",
+	"match":"ENG vs NZ",
+	"time":"3:30 PM/ 10:00 AM GMT / 11:00 AM LOCAL"
+	
+}, {
+	"id": 3,
+	"date": "FRI, JUL 10 2020",
+	"league":"Cricket World Cup",
+	"match":"SL vs SA",
+	"time":"3:30 PM/ 10:00 AM GMT / 11:00 AM LOCAL"
+	
+},{
+	"id": 4,
+	"date": "SAT, JUL 11 2020",
+	"league":"Cricket World Cup",
+	"match":"BAN vs WI",
+	"time":"3:30 PM/ 10:00 AM GMT / 11:00 AM LOCAL"
+	
+},{
+	"id": 5,
+	"date": "SUN, JUL 12 2020",
+	"league":"Cricket World Cup",
+	"match":"AFG vs AUS",
+	"time":"3:30 PM/ 10:00 AM GMT / 11:00 AM LOCAL"
+	
+}]

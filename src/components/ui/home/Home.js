@@ -15,7 +15,7 @@ class Home extends Component {
   }
 
   getNewsData() {
-    axios.get(`${process.env.PUBLIC_URL}/assets/samplejson/newslist.json`).then(response => {
+    axios.get("assets/samplejson/newslist.json").then(response => {
       this.setState({newsList: response})
     })
   };
