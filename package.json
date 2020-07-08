@@ -2,7 +2,7 @@
   "name": "courses",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohankumar154.github.io/React-Cricket-App",
+  "homepage": "https://mohankumar154.github.io",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^3.3.7",
