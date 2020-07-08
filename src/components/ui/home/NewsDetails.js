@@ -19,7 +19,8 @@ export default class NewsDetails extends Component {
   }
 
   getNewsDetails(id) {
-    axios.get("assets/samplejson/news" + id + ".json").then(response => {
+    console.log("a",id)
+    axios.get(id===1 ? "https://json.extendsclass.com/bin/524f80b45aeb" : id===2 ? "https://json.extendsclass.com/bin/77000100ae38":"https://json.extendsclass.com/bin/5da0d45f304b").then(response => {
       this.setState({newsDetails: response})
     })
   };
