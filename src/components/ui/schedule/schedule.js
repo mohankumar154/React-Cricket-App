@@ -9,11 +9,11 @@ class Schedule extends Component {
     }
   }
   componentDidMount() {
-    this.getCustomerData();
+    this.getNewslistData();
   }
 
-  getCustomerData() {
-    axios.get('assets/samplejson/matchlist.json').then(response => {
+  getNewslistData() {
+    axios.get("%PUBLIC_URL%/matchlist.json").then(response => {
       this.setState({customerList: response})
     })
   };

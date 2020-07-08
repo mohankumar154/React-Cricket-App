@@ -19,7 +19,7 @@ export default class NewsDetails extends Component {
   }
 
   getNewsDetails(id) {
-    axios.get('assets/samplejson/news' + id + '.json').then(response => {
+    axios.get('%PUBLIC_URL%/news' + id + '.json').then(response => {
       this.setState({newsDetails: response})
     })
   };
