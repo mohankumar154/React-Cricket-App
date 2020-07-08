@@ -13,7 +13,7 @@ class Schedule extends Component {
   }
 
   getNewslistData() {
-    axios.get("assets/samplejson/matchlist.json").then(response => {
+    fetch("https://json.extendsclass.com/bin/3ef3f7448844").then(response => {
       this.setState({customerList: response})
     })
   };

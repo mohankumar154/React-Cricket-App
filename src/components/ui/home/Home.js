@@ -17,7 +17,7 @@ class Home extends Component {
   }
 
   getNewsData() {
-    axios.get("https://json.extendsclass.com/bin/44d112c8d039").then(response => {
+    fetch("https://json.extendsclass.com/bin/44d112c8d039").then(response => {
       this.setState({newsList: response})
     })
   };
