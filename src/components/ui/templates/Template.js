@@ -8,7 +8,7 @@ const Template = () => (
   <div className="container">
     <Header />
     <Routes />
-    {console.log("mohan",window.Location.path)}
+    {console.log("mohan",Location.pathname)}
   
   </div>
   
