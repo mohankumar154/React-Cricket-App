@@ -11,6 +11,7 @@ const Routes = () => (
     <Switch>
       
         <Route exact path="/" component={Home} />
+        <React exact path="https://mohankumar154.github.io/React-Cricket-App" component={Home}/>
         <Route path="/about" component={About} />
         <Route path="/teams" component={Teams} />
         <Route path="/schedule" component={Schedule} />
