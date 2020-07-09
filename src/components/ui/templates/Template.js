@@ -6,9 +6,10 @@ import Routes from '../routes/Routes';
 const Template = () => (
   
   <div className="container">
+    {console.log("mohanqq",window.location.pathname)}
     <Header />
     <Routes />
-    {console.log("mohan",Location.pathname)}
+    
   
   </div>
   
