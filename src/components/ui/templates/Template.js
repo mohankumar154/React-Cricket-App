@@ -8,6 +8,7 @@ const Template = () => (
   <div className="container">
     <Header />
     <Routes />
+    {console.log("mohan",window.Location.path)}
   
   </div>
   
